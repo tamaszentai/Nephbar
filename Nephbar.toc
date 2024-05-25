@@ -1,0 +1,7 @@
+## Interface: 100105
+## Title: Nephbar
+## Notes: Displays the current health and mana of the player in a box.
+## Author: Tamas Zentai
+## Version: 1.0
+
+Nephbar.lua
