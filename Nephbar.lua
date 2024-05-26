@@ -15,6 +15,11 @@ frame:SetSize(200, 100)
 frame:SetPoint("CENTER", 0, 100)
 frame:SetBackdrop(backdropInfo)
 frame:SetBackdropColor(0, 0, 0, .5)
+frame:EnableMouse(true)
+frame:SetMovable(true)
+frame:RegisterForDrag("LeftButton")
+frame:SetScript("OnDragStart", frame.StartMoving)
+frame:SetScript("OnDragStop", frame.StopMovingOrSizing)
 
 
 local titleText = frame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
